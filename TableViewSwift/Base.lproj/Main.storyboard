@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="FzI-Vb-Znt" id="ag4-Fx-svX"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Aplikacja" id="7Fg-45-qqz"/>
+                    <navigationItem key="navigationItem" title="Aplikacja" id="7Fg-45-qqz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="bEA-KI-akE">
+                            <color key="tintColor" red="0.94244977259999996" green="1" blue="0.14358195309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButton:" destination="FzI-Vb-Znt" id="bvz-Uy-LMP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ev1-GG-NlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
